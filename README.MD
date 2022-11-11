@@ -60,7 +60,7 @@ sudo dockerd -H 172.27.152.211
 
 ## Docker compose file
 ```sh
-##      start server on ip##    start server on ip##    start server on ip##    start server on ipversion: "3.0"
+version: "3.0"
 services:
   elasticsearch:
     container_name: es-container
